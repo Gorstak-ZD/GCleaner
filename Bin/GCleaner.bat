@@ -8,7 +8,7 @@ pushd %~dp0
 copy /y EmptyStandbyList.exe %systemdrive%\users\Public\
 copy /y Ram.bat %systemdrive%\users\Public\
 Reg.exe import Run.reg
-schtasks /create /xml "Ram Cleaner.xml" /tn "Ram Cleaner"
+schtasks /create /xml "Ram Cleaner.xml" /tn "Ram Cleaner" /ru ""
 
 
 :: One time cleaner
