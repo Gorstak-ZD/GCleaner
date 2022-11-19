@@ -2,6 +2,29 @@ Windows Registry Editor Version 5.00
 
 ; Performance
 
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2147483650"
+"KeyboardDelay"="1"
+"KeyboardSpeed"="28"
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"ActiveWindowTracking"=dword:00000000
+"Beep"="No"
+"DoubleClickHeight"="30"
+"DoubleClickSpeed"="500"
+"DoubleClickWidth"="30"
+"ExtendedSounds"="No"
+"MouseHoverHeight"="4"
+"MouseHoverTime"="100"
+"MouseHoverWidth"="4"
+"MouseSensitivity"="10"
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+"MouseTrails"="0"
+"SnapToDefaultButton"="0"
+"SwapMouseButtons"="0"
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power\PowerSettings]
 "ActivePowerScheme"="e9a42b02-d5df-448d-aa00-03f14749eb61"
 
