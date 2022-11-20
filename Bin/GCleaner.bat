@@ -10,10 +10,6 @@ copy /y Ram.bat %systemdrive%\users\Public\
 Reg.exe import Run.reg
 schtasks /create /xml "Ram Cleaner.xml" /tn "Ram Cleaner" /ru ""
 
-
 :: One time cleaner
 @powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "Get-ProvisionedAppxPackage -Online | Remove-ProvisionedAppxPackage -Online"
 cleanmgr /sagerun:65535
-
-:: Reduce process count
-Reg.exe import Performance.reg
