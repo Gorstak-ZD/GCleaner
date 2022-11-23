@@ -131,7 +131,7 @@ reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Wi
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Windows Upgrade Log Files" /v "StateFlags65535" /t REG_DWORD /d "2" /f
 
 @powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "Get-ProvisionedAppxPackage -Online | Remove-ProvisionedAppxPackage -Online"
-cleanmgr /sagerun:655355
+cleanmgr /sagerun:65535
 
 :: Registry
 Reg import %~dp0lower-ram-usage.reg
