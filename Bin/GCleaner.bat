@@ -135,4 +135,4 @@ reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Wi
 cleanmgr /sagerun:65535
 
 :: Registry
-Reg import %~dp0lower-ram-usage.reg
+Reg import %~dp0Performance.reg
