@@ -5,7 +5,8 @@ Windows Registry Editor Version 5.00
 "FeatureSettingsOverrideMask"=dword:00000003
 "FeatureSettingsOverride"=dword:00000003
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Kernel]
+"DisableExceptionChainValidation"=dword:00000000
 "DisableTsx"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization]
@@ -14,6 +15,15 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
 "SvcHostSplitThresholdInKB"=dword:04000000
 "WaitToKillServiceTimeout"="2000"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP\ConnectedSubsystems]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP\ConnectedSubsystems\{00000000-0000-0000-0000-000000000000}]
+"CacheEnabled"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
 "NetworkThrottlingIndex"=dword:0ffffffff
