@@ -21,12 +21,12 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "AutoEndTasks"="1"
 "HungAppTimeout"="4000"
-"LogPixels"=dword:00000120
+"LogPixels"=dword:00000096
 "LowLevelHooksTimeout"=dword:00001000
 "MenuShowDelay"="0"
 "WaitToKillAppTimeout"="5000"
 "WaitToKillServiceTimeout"=dword:00002000
-"Win8DpiScaling"=dword:00000001
+"Win8DpiScaling"=dword:00000000
 
 [HKEY_CURRENT_USER\Control Panel\Mouse]
 "MouseSensitivity"="10"
