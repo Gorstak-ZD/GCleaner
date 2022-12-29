@@ -21,7 +21,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "AutoEndTasks"="1"
 "HungAppTimeout"="4000"
-"LogPixels"=dword:00000200
+"LogPixels"=dword:00000096
 "LowLevelHooksTimeout"=dword:00001000
 "MenuShowDelay"="0"
 "WaitToKillAppTimeout"="5000"
