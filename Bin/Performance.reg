@@ -1,36 +1,123 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
-"FeatureSettings"=dword:00000000
-"FeatureSettingsOverrideMask"=dword:00000003
-"FeatureSettingsOverride"=dword:00000003
+[HKEY_CLASSES_ROOT]
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Kernel]
-"DisableExceptionChainValidation"=dword:00000000
-"DisableTsx"=dword:00000000
+[HKEY_CLASSES_ROOT\AllFilesystemObjects]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization]
--"MinVmVersionForCpuBasedMitigations"="1.0"
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex]
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers]
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
+@="{C2FBB630-2971-11D1-A18C-00C04FD75D13}"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
+@="{C2FBB631-2971-11D1-A18C-00C04FD75D13}"
+
+[HKEY_CURRENT_USER]
+
+[HKEY_CURRENT_USER\Control Panel]
 
 [HKEY_CURRENT_USER\Control Panel\Desktop]
+"AutoEndTasks"="1"
+"HungAppTimeout"="4000"
 "LogPixels"=dword:00000200
+"LowLevelHooksTimeout"=dword:00001000
+"MenuShowDelay"="0"
+"WaitToKillAppTimeout"="5000"
+"WaitToKillServiceTimeout"=dword:00002000
 "Win8DpiScaling"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
-"SvcHostSplitThresholdInKB"=dword:04000000
-"WaitToKillServiceTimeout"="2000"
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSensitivity"="10"
+"SmoothMouseXCurve"=hex:	0,00,00,00,00,00,00,00,0	,C0,CC,0C,00,00,00,00,00,	8,09,91,90,00,00,00,00,\
+  0	,40,66,26,00,00,00,00,00,	0,03,33,30,00,00,00,00,0
+"SmoothMouseYCurve"=hex:	0,00,00,00,00,00,00,00,0	,00,00,38,00,00,00,00,00,	0,00,07,00,00,00,00,00,\
+  0	,00,00,A8,00,00,00,00,00,	0,00,0E,00,00,00,00,00,0
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement]
+[HKEY_CURRENT_USER\Software]
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP]
+[HKEY_CURRENT_USER\Software\Microsoft]
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP\ConnectedSubsystems]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows]
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP\ConnectedSubsystems\{00000000-0000-0000-0000-000000000000}]
-"CacheEnabled"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"LinkResolveIgnoreLinkInfo"=dword:00000001
+"NoInstrumentation"=dword:00000001
+"NoInternetOpenWith"=dword:00000001
+"NoLowDiskSpaceChecks"=dword:00000001
+"NoResolveSearch"=dword:00000001
+"NoResolveTrack"=dword:00000001
+
+[HKEY_CURRENT_USER\System]
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000000
+"GameDVR_EFSEFeatureFlags"=dword:00000000
+"GameDVR_Enabled"=dword:00000000
+"GameDVR_FSEBehavior"=dword:00000002
+"GameDVR_FSEBehaviorMode"=dword:00000002
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000000
+"Win32_AutoGameModeDefaultProfile"=hex:01,00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"Win32_GameModeRelatedProcesses"=hex:01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR]
+"value"="00000000"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia]
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
-"NetworkThrottlingIndex"=dword:0ffffffff
+"NetworkThrottlingIndex"="fffffff"
 "SystemResponsiveness"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks]
@@ -41,8 +128,8 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000006
-"Scheduling Category"="Medium"
 "SFIO Priority"="Normal"
+"Scheduling Category"="Medium"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Capture]
 "Affinity"=dword:00000000
@@ -50,8 +137,8 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000005
-"Scheduling Category"="Medium"
 "SFIO Priority"="Normal"
+"Scheduling Category"="Medium"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\DisplayPostProcessing]
 "Affinity"=dword:00000000
@@ -60,8 +147,8 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000008
-"Scheduling Category"="High"
 "SFIO Priority"="Normal"
+"Scheduling Category"="High"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Distribution]
 "Affinity"=dword:00000000
@@ -69,8 +156,8 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000004
-"Scheduling Category"="Medium"
 "SFIO Priority"="Normal"
+"Scheduling Category"="Medium"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
 "Affinity"=dword:00000000
@@ -78,8 +165,8 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000006
-"Scheduling Category"="High"
 "SFIO Priority"="High"
+"Scheduling Category"="High"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Playback]
 "Affinity"=dword:00000000
@@ -88,8 +175,8 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000003
-"Scheduling Category"="Medium"
 "SFIO Priority"="Normal"
+"Scheduling Category"="Medium"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Pro Audio]
 "Affinity"=dword:00000000
@@ -97,8 +184,8 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000001
-"Scheduling Category"="High"
 "SFIO Priority"="Normal"
+"Scheduling Category"="High"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Window Manager]
 "Affinity"=dword:00000000
@@ -106,87 +193,122 @@ Windows Registry Editor Version 5.00
 "Clock Rate"=dword:00002710
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000005
-"Scheduling Category"="Medium"
 "SFIO Priority"="Normal"
+"Scheduling Category"="Medium"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
-"Affinity"=dword:00000000
-"Background Only"="False"
-"Clock Rate"=dword:00002710
-"GPU Priority"=dword:00000008
-"Priority"=dword:00000006
-"Scheduling Category"="High"
-"SFIO Priority"="High"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching]
 "SearchOrderConfig"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
-"HiberbootEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies]
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
-"PowerThrottlingOff"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
+"AllowTelemetry"=dword:00000000
 
-[HKEY_CURRENT_USER\System\GameConfigStore]
-"GameDVR_Enabled"=dword:00000000
-"GameDVR_FSEBehaviorMode"=dword:00000002
-"Win32_AutoGameModeDefaultProfile"=hex:01,00,01,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00
-"Win32_GameModeRelatedProcesses"=hex:01,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,00,00,00,00,00
-"GameDVR_HonorUserFSEBehaviorMode"=dword:00000000
-"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000000
-"GameDVR_EFSEFeatureFlags"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoInstrumentation"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SQMClient]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SQMClient\Windows]
+"CEIPEnable"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"AITEnable"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR]
+"AllowGameDVR"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\HandwritingErrorReports]
+"PreventHandwritingErrorReports"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Kernel]
+"DisableExceptionChainValidation"=dword:00000000
+"DisableTsx"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP\ConnectedSubsystems]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\StorageManagement\SpacesSMP\ConnectedSubsystems\{00000000-0000-0000-0000-000000000000}]
+"CacheEnabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"SvcHostSplitThresholdInKB"=dword:04000000
+"WaitToKillServiceTimeout"="2000"
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
 "HibernateEnabledDefault"=dword:00000000
 
-[HKEY_CURRENT_USER\Control Panel\Desktop]
-"MenuShowDelay"="0"
-"WaitToKillAppTimeout"="5000"
-"HungAppTimeout"="4000"
-"AutoEndTasks"="1"
-"LowLevelHooksTimeout"=dword:00001000
-"WaitToKillServiceTimeout"=dword:00002000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009\DefaultPowerSchemeValues]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb\DefaultPowerSchemeValues]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\943c8cb6-6f93-4227-ad87-e9a3feec08d1]
 "Attributes"=dword:00000002
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
-"ACSettingIndex"=dword:0
-"DCSettingIndex"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
-"ACSettingIndex"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb\DefaultPowerSchemeValues\381b4222-f694-41f0-9685-ff5bb260df2e]
-"ACSettingIndex"=dword:0
-"DCSettingIndex"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettings"=dword:00000000
+"FeatureSettingsOverride"=dword:00000003
+"FeatureSettingsOverrideMask"=dword:00000003
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb\DefaultPowerSchemeValues\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c]
-"ACSettingIndex"=dword:0
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
+"HiberbootEnabled"=dword:00000000
+
+[HKEY_USERS]
+
+[HKEY_USERS\.DEFAULT]
+
+[HKEY_USERS\.DEFAULT\Control Panel]
+
+[HKEY_USERS\.DEFAULT\Control Panel\Mouse]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
